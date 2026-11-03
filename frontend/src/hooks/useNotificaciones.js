@@ -5,7 +5,7 @@ import {
   suscribirseAGremio,
   cancelarSuscripcion,
   desconectarNotificaciones,
-} from '../services/notificacionService';
+} from "../services/notificationServices";
 
 function useNotificaciones(gremioId) {
   const [conectado, setConectado] = useState(false);
