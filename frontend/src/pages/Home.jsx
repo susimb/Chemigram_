@@ -128,8 +128,7 @@ const cerrarSesion = () => {
     Descubre ingredientes, métodos y fórmulas
     que aguardan una nueva interpretación.
   </p>
-
-  <Link to="/gremios">Explorar el saber ↗</Link>
+  <Link to="/gremios">Explorar las pociones ↗</Link>
 </article>
 
 <article className="folio folio-guilds">

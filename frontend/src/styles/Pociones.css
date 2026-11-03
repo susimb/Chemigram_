@@ -1,0 +1,84 @@
+.potions-page {
+  min-height: 100vh;
+  padding: 64px 8%;
+  color: #eee8d8;
+}
+
+.potions-header {
+  max-width: 760px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.potions-eyebrow {
+  color: #b99a63;
+  letter-spacing: 4px;
+  font-size: 0.75rem;
+}
+
+.potions-header h1 {
+  margin: 18px 0;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-family: Georgia, serif;
+}
+
+.potions-header p {
+  color: #b8b1a3;
+  line-height: 1.7;
+}
+
+.potions-empty {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+  border: 1px solid rgba(185, 154, 99, 0.3);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.potions-empty > span,
+.potion-icon {
+  color: #c5a56b;
+  font-size: 3rem;
+}
+
+.potions-empty h2 {
+  font-family: Georgia, serif;
+}
+
+.potions-empty p,
+.potions-message {
+  color: #b8b1a3;
+}
+
+.potions-message {
+  text-align: center;
+}
+
+.potions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.potion-card {
+  padding: 28px;
+  border: 1px solid rgba(185, 154, 99, 0.3);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.potion-card h2 {
+  font-family: Georgia, serif;
+}
+
+.potion-card p {
+  color: #b8b1a3;
+  line-height: 1.6;
+}
+
+.potion-rarity {
+  color: #c5a56b;
+  font-size: 0.85rem;
+}
